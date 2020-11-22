@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/42matters/static/js/main.aa7ff968.chunk.js",
+    "main.js.map": "/42matters/static/js/main.aa7ff968.chunk.js.map",
+    "runtime-main.js": "/42matters/static/js/runtime-main.0981783d.js",
+    "runtime-main.js.map": "/42matters/static/js/runtime-main.0981783d.js.map",
+    "static/js/2.630794e7.chunk.js": "/42matters/static/js/2.630794e7.chunk.js",
+    "static/js/2.630794e7.chunk.js.map": "/42matters/static/js/2.630794e7.chunk.js.map",
+    "index.html": "/42matters/index.html",
+    "static/js/2.630794e7.chunk.js.LICENSE.txt": "/42matters/static/js/2.630794e7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0981783d.js",
+    "static/js/2.630794e7.chunk.js",
+    "static/js/main.aa7ff968.chunk.js"
+  ]
+}
