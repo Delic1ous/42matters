@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Content } from "../components/Content";
+import { GitHubLink } from "../components/GitHubLink";
 import { ALL_TAGS, Sidebar, TAG_TYPE } from "../components/Sidebar";
 import { Wrapper } from "../components/Wrapper";
 import { useFetch } from "../hooks/useFetch";
@@ -20,9 +21,12 @@ export const SDKViewer = () => {
   }, [selectedFilter]);
 
   return (
+    <>
     <Wrapper
       content={<Content data={data} selectedFilter={selectedFilter} />}
       sidebar={<Sidebar data={data} setSelectedFilter={setSelectedFilter} />}
     />
+    <GitHubLink />
+    </>
   );
 };
